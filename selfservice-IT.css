@@ -5105,7 +5105,7 @@ a.list-group-item.active:focus .list-group-item-text {
   flex-wrap: wrap;
 }
 .well:hover{
-  border: 2px solid var(--primary-color-dark);
+  outline: 2px solid var(--primary-color-dark);
 }
 .well blockquote {
   border-color: #ddd;
