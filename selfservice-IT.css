@@ -5095,7 +5095,6 @@ a.list-group-item.active:focus .list-group-item-text {
   text-align: center;
 }
 .row.z-div > .col-sm-6.z-div:first-of-type > div > a{
-  display: flex;
   flex-basis: 100%;
 }
 .row.z-div > .col-sm-6.z-div:first-of-type{
