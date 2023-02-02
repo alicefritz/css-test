@@ -5088,6 +5088,21 @@ a.list-group-item.active:focus .list-group-item-text {
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
 }
+.row.z-div > .col-sm-6.z-div:first-of-type > div > a > div{
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+}
+.row.z-div > .col-sm-6.z-div:first-of-type > div{
+  display: flex;
+}
+.row.z-div > .col-sm-6.z-div:first-of-type{
+  flex-basis: 100%;
+}
+.row.z-div:first-of-type{
+  display: flex;
+  flex-wrap: wrap;
+}
 .well:hover{
   border: 2px solid var(--primary-color-dark);
 }
