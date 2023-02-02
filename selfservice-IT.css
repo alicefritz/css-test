@@ -7075,7 +7075,7 @@ h4.well-header {
   padding: 0px !important;
 }
 
-.widget.messageboard > div:has(.messageboard-item){
+.widget.messageboard:has(div):has(.messageboard-item){
   display: block;
 }
 @media (max-width: 767px) {
