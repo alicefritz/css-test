@@ -3574,6 +3574,9 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .nav-pills > li > a {
   border-radius: 4px;
 }
+.nav-pills > li > a:focus {
+  outline-color: var(--primary-color-dark);
+}
 .nav-pills > li + li {
   margin-left: 2px;
 }
