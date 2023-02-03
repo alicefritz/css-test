@@ -351,6 +351,9 @@ p {
   .lead {
     font-size: 21px;
   }
+  .p.z-div > .z-div > .row.z-div > div{
+    width: 100%;
+  }
 }
 small,
 .small {
@@ -8127,6 +8130,3 @@ fieldset[disabled] .datepicker table tr td span.active.disabled:hover.active {
   margin-right: -5px;
 }
 
-.p.z-div > .z-div > .row.z-div > div{
-  width: 100%;
-}
