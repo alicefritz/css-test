@@ -63,7 +63,7 @@ a:hover {
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
-  background-color: white !important;
+  color: white !important;
 }
 abbr[title] {
   border-bottom: 1px dotted;
