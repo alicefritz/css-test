@@ -6812,6 +6812,11 @@ header .logo img {
 header .logo h1 {
   font-family: 'Source Sans Pro', sans-serif;
 }
+
+header div:has(.headerSignedIn){
+  display: flex;
+  justify-content: flex-end;
+}
 @media (max-width: 767px) {
   .nav.nav-stacked {
     display: none;
