@@ -63,6 +63,7 @@ a:hover {
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
+  background-color: white !important;
 }
 abbr[title] {
   border-bottom: 1px dotted;
@@ -7014,7 +7015,7 @@ h4.well-header {
   border-bottom: 1px solid transparent;
   border-top-right-radius: 3px;
   border-top-left-radius: 3px;
-  color: var(--primary-color-darker);
+  color: white;
   background-color: var(--primary-color);
   border-color: #dddddd;
 }
