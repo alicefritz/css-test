@@ -351,9 +351,6 @@ p {
   .lead {
     font-size: 21px;
   }
-  .p.z-div > .z-div > .row.z-div > div{
-    width: 100%;
-  }
 }
 small,
 .small {
@@ -1571,6 +1568,9 @@ table th[class*="col-"] {
   .table-responsive > .table-bordered > tbody > tr:last-child > td,
   .table-responsive > .table-bordered > tfoot > tr:last-child > td {
     border-bottom: 0;
+  }
+  .p.z-div > .z-div > .row.z-div > div{
+    width: 100%;
   }
 }
 fieldset {
