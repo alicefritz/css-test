@@ -6816,7 +6816,7 @@ header .logo h1 {
 }
 
 header div:has(.headerSignedIn){
-  display: none !important;
+  display: flex;
   justify-content: flex-end;
 }
 @media (max-width: 767px) {
