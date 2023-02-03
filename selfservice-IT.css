@@ -6818,6 +6818,10 @@ header .logo h1 {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+header .logo > div{
+  display: none;
+}
+
 header div:has(.headerSignedIn){
   display: flex;
   justify-content: flex-end;
