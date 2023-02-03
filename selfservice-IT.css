@@ -6794,6 +6794,12 @@ header {
   margin-bottom: 20px;
   padding-top: 15px !important;
   padding-bottom: 10px !important;
+  display: flex;
+}
+
+header > div > div{
+  display: flex;
+  align-items: center;
 }
 header .logo {
   color: #000000;
