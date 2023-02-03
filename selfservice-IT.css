@@ -1,9 +1,10 @@
 /*! normalize.css v2.1.3 | MIT License | git.io/normalize */
 :root {
-  --primary-color: #81C5CD;
-  --primary-color-light: #BEDEE4;
-  --primary-color-dark: #51B6C0;
-  --primary-color-darker: #045157;
+  --primary-color: #52796F;
+  --primary-color-light: #84A98C;
+  --primary-color-lighter: #CAD2C5;
+  --primary-color-dark: #354F52;
+  --primary-color-darker: #2F3E46;
   --accent-color: #FAAF71;
   --accent-color-light: #FDD5B0;
   --accent-color-dark: #F79848;
