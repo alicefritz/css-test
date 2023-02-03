@@ -8144,6 +8144,6 @@ fieldset[disabled] .datepicker table tr td span.active.disabled:hover.active {
   margin-right: -5px;
 }
 
-#faqSeachButton{
+#faqSeachButton, #searchButton{
   background-color: var(--primary-color-darker);
 }
