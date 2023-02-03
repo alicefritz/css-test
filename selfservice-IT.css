@@ -6807,6 +6807,7 @@ header > div > div{
 }
 header .logo {
   color: #000000;
+  display: flex !important;
 }
 header .logo img {
   float: left;
