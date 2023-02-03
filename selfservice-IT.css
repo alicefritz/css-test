@@ -8126,3 +8126,7 @@ fieldset[disabled] .datepicker table tr td span.active.disabled:hover.active {
   margin-left: -5px;
   margin-right: -5px;
 }
+
+.p.z-div > .z-div > .row.z-div > div{
+  width: 100%;
+}
