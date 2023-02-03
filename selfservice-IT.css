@@ -5098,13 +5098,13 @@ a.list-group-item.active:focus .list-group-item-text {
   display: flex;
   flex-direction: column;
 }
-.row.z-div > .col-sm-6.z-div:first-of-type > div > a{
+.frontpage .row.z-div > .col-sm-6.z-div:first-of-type > div > a{
   flex-basis: 100%;
 }
-.row.z-div > .col-sm-6.z-div:first-of-type{
+.frontpage .row.z-div > .col-sm-6.z-div:first-of-type{
   flex-basis: 100%;
 }
-.row.z-div:first-of-type{
+.frontpage .row.z-div:first-of-type{
   display: flex;
   flex-wrap: wrap;
 }
