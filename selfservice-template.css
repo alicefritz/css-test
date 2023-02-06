@@ -6803,13 +6803,18 @@ header .logo h1 {
 header .logo > div:first-of-type{
     display: none;
 }
-header div:has(.headerSignedIn){
+/*header div:has(.headerSignedIn){
     display: flex;
     justify-content: flex-end;
-}  
+}  */
 .headerSignedIn > .z-div:first-of-type{
    /* display: none !important;*/
    display: none;
+}
+
+.frontpage header > .container.z-div > .col-xs-4.z-div{
+    display: flex;
+    justify-content: flex-end;
 }
 
 .headerSignedIn > .z-div > .btn.btn-danger.pull-right.z-a{
