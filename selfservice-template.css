@@ -6783,12 +6783,16 @@ header {
 }
 header .logo {
   color: #000000;
+  display: flex !important;
 }
 header .logo img {
   float: left;
 }
 header .logo h1 {
-  font-family: "Segoe UI", Helvetica, Arial;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+header .logo > div:first-of-type{
+    display: none;
 }
 @media (max-width: 767px) {
   .nav.nav-stacked {
