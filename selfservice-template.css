@@ -11,7 +11,10 @@
     --accent-color-light: #FDD5B0;
     --accent-color-dark: #F79848;
     --accent-color-darker: #774013;
-  }
+}
+
+/*** fonts ***/
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
 
 article,
 aside,
