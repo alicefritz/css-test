@@ -8168,4 +8168,6 @@ fieldset[disabled] .datepicker table tr td span.active.disabled:hover.active {
     background-color: transparent;
 }
 
-  
+i{
+    color: var(--primary-color-darker) !important;
+}
