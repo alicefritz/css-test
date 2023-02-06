@@ -7047,7 +7047,7 @@ h4.well-header {
   clear: both;
 }
 .widget.messageboard > .widget-title{
-    background-color: var(--accent-color);
+    background-color: var(--accent-color-dark);
 }
 .widget.messageboard .widget-content {
   padding-top: 0;
