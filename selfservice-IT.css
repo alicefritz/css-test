@@ -5,10 +5,11 @@
   --primary-color-lighter: #CAD2C5;
   --primary-color-dark: #354F52;
   --primary-color-darker: #2F3E46;
-  --accent-color: #FAAF71;
-  --accent-color-light: #FDD5B0;
-  --accent-color-dark: #F79848;
-  --accent-color-darker: #774013;
+  --accent-color: #E7792B;
+  --accent-color-light: #EFA36C;
+  --accent-color-lighter: #f7d1b6;
+  --accent-color-dark: #B85814;
+  --accent-color-darker: #492308;
 }
 
 /*** fonts ***/
