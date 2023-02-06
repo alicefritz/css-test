@@ -6807,8 +6807,13 @@ header div:has(.headerSignedIn){
     display: flex;
     justify-content: flex-end;
 }  
-.headerSignedIn{
-    display: none !important;
+.headerSignedIn > .z-div:first-of-type{
+   /* display: none !important;*/
+   display: none;
+}
+
+.headerSignedIn > .z-div > .btn.btn-danger.pull-right.z-a{
+    display: none;
 }
 @media (max-width: 767px) {
 .nav.nav-stacked {
