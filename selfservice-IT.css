@@ -1989,8 +1989,8 @@ textarea.input-lg {
 .btn:focus {
   color: #333333;
   text-decoration: none;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
-  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
+  /*-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);*/
 }
 .btn:active,
 .btn.active {
@@ -2057,8 +2057,8 @@ fieldset[disabled] .btn-default.active {
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
   color: #ffffff;
-  background-color: var(--accent-color-dark);
-  border-color: var(--accent-color-light);
+  background-color: var(--primary-color-dark);
+  border-color: var(--primary-color-light);
 }
 .btn-primary:active,
 .btn-primary.active,
@@ -2122,7 +2122,7 @@ fieldset[disabled] .btn-warning.active {
 }
 .btn-danger {
   color: #ffffff;
-  background-color: var(--accent-color);
+  background-color: var(--primary-color);
   border-color: #b42c27;
 }
 .btn-danger:hover,
