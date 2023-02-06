@@ -8170,6 +8170,7 @@ fieldset[disabled] .datepicker table tr td span.active.disabled:hover.active {
 
 .frontpage .sidebar > .z-window.z-window-noborder.z-window-noheader.z-window-embedded{
   border-radius: 0 0 4px 4px;
+  background-color: transparent;
 }
 
 .frontpage .sidebar > .z-window.z-window-noborder.z-window-noheader.z-window-embedded:first-of-type{
