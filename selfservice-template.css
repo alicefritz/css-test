@@ -6815,6 +6815,16 @@ header div:has(.headerSignedIn){
 .headerSignedIn > .z-div > .btn.btn-danger.pull-right.z-a{
     display: none;
 }
+
+.headerSignedIn span{
+    font-size: 24px;
+    color: white;
+}
+
+.headerSignedIn .z-div{
+    padding: 0 !important;
+}
+
 @media (max-width: 767px) {
 .nav.nav-stacked {
     display: none;
