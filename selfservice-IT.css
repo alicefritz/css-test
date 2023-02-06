@@ -6808,6 +6808,7 @@ header {
 header > div > div{
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 header .logo {
   color: #000000;
@@ -6833,8 +6834,28 @@ header div:has(.headerSignedIn) > .headerSignedIn{
   display: none !important;
 }*/
 
-.headerSignedIn{
-  display: none !important;
+.headerSignedIn > .z-div:first-of-type{
+  /* display: none !important;*/
+  display: none;
+}
+
+.frontpage header > .container.z-div > .col-xs-4.z-div{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.headerSignedIn > .z-div > .btn.btn-danger.pull-right.z-a{
+  display: none;
+}
+
+.headerSignedIn span{
+  font-size: 24px;
+  color: white;
+}
+
+.headerSignedIn .z-div{
+  padding: 0 !important;
+  display: flex;
 }
 
 @media (max-width: 767px) {
