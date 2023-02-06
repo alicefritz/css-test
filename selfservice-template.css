@@ -6823,6 +6823,7 @@ header div:has(.headerSignedIn){
 
 .headerSignedIn .z-div{
     padding: 0 !important;
+    display: flex;
 }
 
 @media (max-width: 767px) {
