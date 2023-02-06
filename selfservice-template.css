@@ -6789,6 +6789,7 @@ header {
 header > div > div{
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 header .logo {
   color: #000000;
