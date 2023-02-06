@@ -6825,10 +6825,6 @@ header .logo > div:first-of-type{
   display: none;
 }
 
-header div:has(.headerSignedIn){
-  display: flex;
-  justify-content: flex-end;
-}
 /*
 header div:has(.headerSignedIn) > .headerSignedIn{
   display: none !important;
@@ -6840,22 +6836,22 @@ header div:has(.headerSignedIn) > .headerSignedIn{
 }
 
 .frontpage header > .container.z-div > .col-xs-4.z-div{
-  display: flex;
-  justify-content: flex-end;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .headerSignedIn > .z-div > .btn.btn-danger.pull-right.z-a{
-  display: none;
+    display: none;
 }
 
 .headerSignedIn span{
-  font-size: 24px;
-  color: white;
+    font-size: 24px;
+    color: white;
 }
 
 .headerSignedIn .z-div{
-  padding: 0 !important;
-  display: flex;
+    padding: 0 !important;
+    display: flex;
 }
 
 @media (max-width: 767px) {
