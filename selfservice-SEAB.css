@@ -8123,25 +8123,25 @@ fieldset[disabled] .datepicker table tr td span.active.disabled:hover.active {
   }
   
   
-  .frontpage .content > .z-window.z-window-noborder.z-window-noheader.z-window-embedded{
-    border-radius: 0 0 4px 4px;
-    text-align: center;
-  }
+.frontpage .content > .z-window.z-window-noborder.z-window-noheader.z-window-embedded:first-of-type{
+  border-radius: 4px 4px 0 0;
+  text-align: initial;
+}
+
+.frontpage .content > .z-window.z-window-noborder.z-window-noheader.z-window-embedded ~ .z-window.z-window-noborder.z-window-noheader.z-window-embedded{
+  border-radius: 0 0 4px 4px;
+  text-align: center;
+}
   
-  .frontpage .content > .z-window.z-window-noborder.z-window-noheader.z-window-embedded:first-of-type{
-    border-radius: 4px 4px 0 0;
-    text-align: initial;
-  }
+.frontpage .sidebar > .z-window.z-window-noborder.z-window-noheader.z-window-embedded{
+  border-radius: 0 0 4px 4px;
+  background-color: transparent;
+}
   
-  .frontpage .sidebar > .z-window.z-window-noborder.z-window-noheader.z-window-embedded{
-    border-radius: 0 0 4px 4px;
-    background-color: transparent;
-  }
+.frontpage .sidebar > .z-window.z-window-noborder.z-window-noheader.z-window-embedded:first-of-type{
+  border-radius: 4px 4px 0 0;
+}
   
-  .frontpage .sidebar > .z-window.z-window-noborder.z-window-noheader.z-window-embedded:first-of-type{
-    border-radius: 4px 4px 0 0;
-  }
-  
-  .frontpage .sidebar > .z-window.z-window-noborder.z-window-noheader.z-window-embedded > div{
-    background-color: transparent;
-  }
+.frontpage .sidebar > .z-window.z-window-noborder.z-window-noheader.z-window-embedded > div{
+  background-color: transparent;
+}
