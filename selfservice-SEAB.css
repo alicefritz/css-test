@@ -2,15 +2,15 @@
 
 
 :root {
-    --primary-color: #E7792B;
-    --primary-color-light: #EFA36C;
-    --primary-color-lighter: #f7d1b6;
-    --primary-color-dark: #E7792B;
-    --primary-color-darker: #492308;
-    --accent-color: #81BE53;
-    --accent-color-light: #A9D289;
-    --accent-color-dark: #609438;
-    --accent-color-darker: #263B16;
+    --accent-color: #E7792B;
+    --accent-color-light: #EFA36C;
+    --accent-color-lighter: #f7d1b6;
+    --accent-color-dark: #E7792B;
+    --accent-color-darker: #492308;
+    --primary-color: #81BE53;
+    --primary-color-light: #A9D289;
+    --primary-color-dark: #609438;
+    --primary-color-darker: #263B16;
 }
 
 /*** fonts ***/
