@@ -7,9 +7,10 @@
     --primary-color-lighter: #CAD2C5;
     --primary-color-dark: #354F52;
     --primary-color-darker: #2F3E46;
-    --accent-color: #FAAF71;
-    --accent-color-light: #FDD5B0;
-    --accent-color-dark: #F79848;
+    --accent-color-light: #FAAF71;
+    --accent-color-lighter: #FDD5B0;
+    --accent-color: #F79848;
+    --accent-color-dark: #D76609;
     --accent-color-darker: #774013;
 }
 
