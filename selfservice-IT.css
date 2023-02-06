@@ -8153,11 +8153,24 @@ fieldset[disabled] .datepicker table tr td span.active.disabled:hover.active {
   background-color: var(--primary-color-darker);
 }
 
-.frontpage .content > .z-window.z-window-noborder.z-window-noheader.z-window-embedded{
-  border-radius: 0 0 4px 4px;
-}
 
 .frontpage .content > .z-window.z-window-noborder.z-window-noheader.z-window-embedded:first-of-type{
   border-radius: 4px 4px 0 0;
 }
+
+.frontpage .content > .z-window.z-window-noborder.z-window-noheader.z-window-embedded:last-of-type{
+  border-radius: 0 0 4px 4px;
+}
+
+.frontpage .sidebar > .z-window.z-window-noborder.z-window-noheader.z-window-embedded:first-of-type{
+  border-radius: 4px 4px 0 0;
+}
+
+.frontpage .sidebar > .z-window.z-window-noborder.z-window-noheader.z-window-embedded:last-of-type{
+  border-radius: 0 0 4px 4px;
+}
+
+
+
+
 
