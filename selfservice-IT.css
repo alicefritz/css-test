@@ -8173,7 +8173,7 @@ fieldset[disabled] .datepicker table tr td span.active.disabled:hover.active {
 }
 
 #faqSearchButton, #searchButton{
-  background-color: var(--primary-color-darker);
+  background-color: var(--primary-color-dark);
 }
 
 
