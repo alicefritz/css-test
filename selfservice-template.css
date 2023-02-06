@@ -8171,3 +8171,7 @@ fieldset[disabled] .datepicker table tr td span.active.disabled:hover.active {
 i{
     color: var(--primary-color-darker) !important;
 }
+
+.well{
+    min-height: 150px !important;
+}
