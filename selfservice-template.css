@@ -6780,6 +6780,11 @@ header {
   margin-bottom: 20px;
   padding-top: 15px !important;
   padding-bottom: 10px !important;
+  display: flex;
+}
+header > div > div{
+    display: flex;
+    align-items: center;
 }
 header .logo {
   color: #000000;
@@ -6793,6 +6798,13 @@ header .logo h1 {
 }
 header .logo > div:first-of-type{
     display: none;
+}
+header div:has(.headerSignedIn){
+    display: flex;
+    justify-content: flex-end;
+}  
+  .headerSignedIn{
+    display: none !important;
 }
 @media (max-width: 767px) {
   .nav.nav-stacked {
