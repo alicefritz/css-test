@@ -6827,8 +6827,12 @@ header div:has(.headerSignedIn){
   display: flex;
   justify-content: flex-end;
 }
-
+/*
 header div:has(.headerSignedIn) > .headerSignedIn{
+  display: none !important;
+}*/
+
+.headerSignedIn{
   display: none !important;
 }
 
