@@ -8176,6 +8176,9 @@ fieldset[disabled] .datepicker table tr td span.active.disabled:hover.active {
   background-color: var(--primary-color-dark);
 }
 
+#faqSearchButton i, #searchButton i{
+  color: white !important;
+}
 
 .frontpage .content > .z-window.z-window-noborder.z-window-noheader.z-window-embedded{
   border-radius: 0 0 4px 4px;
