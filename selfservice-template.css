@@ -4480,7 +4480,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   vertical-align: baseline;
   white-space: nowrap;
   text-align: center;
-  background-color: #757575;
+  background-color: var(--accent-color-dark);
   border-radius: 10px;
 }
 .badge:empty {
@@ -8179,4 +8179,8 @@ i{
 
 .well{
     min-height: 150px !important;
+}
+
+UL>LI>.z-a{
+  color: var(--primary-color-darker) !important;
 }
