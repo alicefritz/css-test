@@ -2046,8 +2046,7 @@ fieldset[disabled] .btn-default.active {
   background-color: #ffffff;
   border-color: #cccccc;
 }
-.btn-primary,
-.z-datebox-button {
+.btn-primary{
   color: #ffffff;
   background-color: var(--primary-color-darker);
   border-color: var(--primary-color-dark);
@@ -2056,8 +2055,7 @@ fieldset[disabled] .btn-default.active {
 .btn-primary:focus,
 .btn-primary:active,
 .btn-primary.active,
-.open .dropdown-toggle.btn-primary,
-.z-datebox-button {
+.open .dropdown-toggle.btn-primary{
   color: #ffffff;
   background-color: var(--primary-color-dark);
   border-color: var(--primary-color-light);
@@ -7356,8 +7354,8 @@ span.bootstrap.z-datebox input.z-datebox-input:focus {
 }
 span.bootstrap.z-datebox a.z-datebox-button {
   color: #ffffff;
-  background: #347ab7;
-  border-color: #357ebd;
+  background: var(--primary-color-dark);
+  border-color: var(--primary-color-darker);
   padding: 6px 0px;
   height: 34px;
 }
