@@ -8192,3 +8192,9 @@ button > i, .btn-success > i{
 .z-datebox-icon{
   color: white !important;
 }
+
+.headerSignedIn .z-label::before{
+  content: 'Inloggad som:';
+  color: white;
+  font-size: 14px;
+}
