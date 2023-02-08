@@ -7360,8 +7360,8 @@ span.bootstrap.z-datebox a.z-datebox-button {
   height: 34px;
 }
 span.bootstrap.z-datebox a.z-datebox-button:hover {
-  background-color: #3276b1;
-  border-color: #285e8e;
+  background-color: var(--primary-color);
+  border-color: var(--primary-color-dark);
 }
 span.bootstrap.z-datebox a.z-datebox-button:active {
   -webkit-box-shadow: none;
@@ -8185,3 +8185,6 @@ UL>LI>.z-a{
   color: var(--primary-color-darker) !important;
 }
 
+button > i, .btn-success > i{
+  color: white !important;
+}
