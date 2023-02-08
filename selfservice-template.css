@@ -8140,6 +8140,11 @@ fieldset[disabled] .datepicker table tr td span.active.disabled:hover.active {
     color: white;
 }
 
+#faqSearchButton:hover, #searchButton:hover{
+  background-color: var(--primary-color);
+  color: white;
+}
+
 #faqSearchButton i, #searchButton i{
     color: white !important;
 }
