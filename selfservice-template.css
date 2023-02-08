@@ -8193,6 +8193,11 @@ button > i, .btn-success > i{
   color: white !important;
 }
 
+.headerSignedIn .z-label{
+  display: flex;
+  flex-direction: column;
+}
+
 .headerSignedIn .z-label::before{
   content: 'Inloggad som:';
   color: white;
