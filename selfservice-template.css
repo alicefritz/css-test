@@ -4492,8 +4492,8 @@ a.badge:focus {
 }
 a.list-group-item.active > .badge,
 .nav-pills > .active > a > .badge {
-  color: #347ab7;
-  background-color: #ffffff;
+  color: white;
+  background-color: var(--accent-color-dark);
 }
 .nav-pills > li > a > .badge {
   margin-left: 3px;
