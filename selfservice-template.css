@@ -8203,3 +8203,7 @@ button > i, .btn-success > i{
   color: white;
   font-size: 14px;
 }
+
+.nav-pills > li.active > a{
+  color: white !important;
+}
