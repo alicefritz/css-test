@@ -8188,3 +8188,7 @@ UL>LI>.z-a{
 button > i, .btn-success > i{
   color: white !important;
 }
+
+.z-datebox-icon{
+  color: white !important;
+}
