@@ -8311,6 +8311,12 @@ font-size: 14px;
 color: white !important;
 }
 
+#faqList ~ .z-div{
+  background-color: white;
+  border-radius: 4px;
+  padding: 15px;
+}
+
 
 /***** UNCOMMENT THIS FOR "BIG-BUTTON" LAYOUT FOR "MINA ÄRENDEN"
 .frontpage .row.z-div > .col-sm-6.z-div:first-of-type > div > a > div{
