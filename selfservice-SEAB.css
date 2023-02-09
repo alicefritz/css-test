@@ -8952,7 +8952,7 @@ button > i,
 }
 
 a:focus{
-  outline-color: var(--accent-color-dark);
+  outline-color: var(--accent-color-dark) !important;
 }
 
 /***** UNCOMMENT THIS FOR "BIG-BUTTON" LAYOUT FOR "MINA ÄRENDEN"
