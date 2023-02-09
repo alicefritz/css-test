@@ -8703,16 +8703,16 @@ fieldset[disabled] .datepicker table tr td span.active.disabled:hover.active {
 
 /*****  CHANGES BY SKÖVDE KOMMUN IT/ALICE *****/
 :root {
-  --primary-color: #52796f;
-  --primary-color-light: #84a98c;
-  --primary-color-lighter: #cad2c5;
-  --primary-color-dark: #354f52;
-  --primary-color-darker: #2f3e46;
-  --accent-color-light: #faaf71;
-  --accent-color-lighter: #fdd5b0;
-  --accent-color: #f79848;
-  --accent-color-dark: #d76609;
-  --accent-color-darker: #774013;
+  --primary-color: #26d99d;
+  --primary-color-light: #56e1b3;
+  --primary-color-lighter: #87eac9;
+  --primary-color-dark: #1ea97a;
+  --primary-color-darker: #157857;
+  --accent-color-light: #e15685;
+  --accent-color-lighter: #ea86a8;
+  --accent-color: #d92662;
+  --accent-color-dark: #a91e4c;
+  --accent-color-darker: #791536;
 }
 
 html,
