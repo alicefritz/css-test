@@ -8311,3 +8311,17 @@ font-size: 14px;
 color: white !important;
 }
 
+.frontpage .row.z-div > .col-sm-6.z-div:first-of-type > div > a > div{
+  display: flex;
+  flex-direction: column;
+}
+.frontpage .row.z-div > .col-sm-6.z-div:first-of-type > div > a{
+  flex-basis: 100%;
+}
+.frontpage .row.z-div > .col-sm-6.z-div:first-of-type{
+  flex-basis: 100%;
+}
+.frontpage .row.z-div:first-of-type{
+  display: flex;
+  flex-wrap: wrap;
+}
