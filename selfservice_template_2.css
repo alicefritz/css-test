@@ -8146,8 +8146,8 @@ h6,
   box-shadow: none;
 }
 .btn-primary{
-  background-color: var(--primary-color-darker);
-  border-color: var(--primary-color-dark);
+  background-color: var(--primary-color-dark);
+  border-color: var(--primary-color-darker);
 }
 .btn-primary:hover,
 .btn-primary:focus,
@@ -8155,7 +8155,7 @@ h6,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary{
   background-color: var(--primary-color-dark);
-  border-color: var(--primary-color-light);
+  border-color: var(--primary-color-darker);
 }
 .nav-pills > li.active > a,
 .nav-pills > li.active > a:hover,
