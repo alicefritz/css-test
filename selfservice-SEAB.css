@@ -8956,6 +8956,10 @@ button > i,
   font-size: 14px;
 }
 
+.headerSignedIn{
+  border: none;
+}
+
 .nav-pills > li.active > a {
   color: white !important;
 }
