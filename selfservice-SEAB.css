@@ -8951,6 +8951,10 @@ button > i,
   padding: 15px;
 }
 
+a:focus{
+  outline-color: var(--accent-color-dark);
+}
+
 /***** UNCOMMENT THIS FOR "BIG-BUTTON" LAYOUT FOR "MINA ÄRENDEN"
 .frontpage .row.z-div > .col-sm-6.z-div:first-of-type > div > a > div{
   display: flex;
