@@ -8957,7 +8957,7 @@ button > i,
 }
 
 .headerSignedIn{
-  border: none;
+  border: none !important;
 }
 
 .nav-pills > li.active > a {
