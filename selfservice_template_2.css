@@ -8311,6 +8311,8 @@ font-size: 14px;
 color: white !important;
 }
 
+
+/***** UNCOMMENT THIS FOR "BIG-BUTTON" LAYOUT FOR "MINA ÄRENDEN"
 .frontpage .row.z-div > .col-sm-6.z-div:first-of-type > div > a > div{
   display: flex;
   flex-direction: column;
@@ -8325,3 +8327,4 @@ color: white !important;
   display: flex;
   flex-wrap: wrap;
 }
+*****/
