@@ -8921,6 +8921,11 @@ UL > LI > .z-a {
   color: var(--primary-color-darker) !important;
 }
 
+.btn-success{
+  background-color: var(--accent-color);
+  border-color: var(--accent-color-dark);
+}
+
 button > i,
 .btn-success > i {
   color: white !important;
