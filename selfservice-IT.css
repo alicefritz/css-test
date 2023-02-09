@@ -8926,6 +8926,16 @@ UL > LI > .z-a {
   border-color: var(--accent-color-dark);
 }
 
+.btn-success:hover,
+.btn-success:focus,
+.btn-success:active,
+.btn-success.active,
+.open .dropdown-toggle.btn-success {
+  color: #ffffff;
+  background-color: var(--accent-color-dark);
+  border-color: var(--accent-color-darker);
+}
+
 button > i,
 .btn-success > i {
   color: white !important;
