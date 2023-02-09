@@ -8955,6 +8955,10 @@ a:focus{
   outline-color: var(--accent-color-dark) !important;
 }
 
+.z-a:hover{
+  color: var(--primary-color-light);
+}
+
 /***** UNCOMMENT THIS FOR "BIG-BUTTON" LAYOUT FOR "MINA ÄRENDEN"
 .frontpage .row.z-div > .col-sm-6.z-div:first-of-type > div > a > div{
   display: flex;
