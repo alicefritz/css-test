@@ -225,6 +225,7 @@ i {
 
 .well {
   min-height: 150px !important;
+  border-radius: 10px;
 }
 
 UL > LI > .z-a {
