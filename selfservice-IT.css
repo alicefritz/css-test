@@ -190,6 +190,10 @@ span.bootstrap.z-datebox a.z-datebox-button:hover {
   box-shadow: var(--box-shadow);
 }
 
+.frontpage .content > .z-window.z-window-noborder.z-window-noheader.z-window-embedded:first-of-type > .z-window-content{
+  padding: 0;
+}
+
 .frontpage
   .content
   > .z-window.z-window-noborder.z-window-noheader.z-window-embedded
