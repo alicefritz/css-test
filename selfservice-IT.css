@@ -271,10 +271,6 @@ button > i,
   font-size: 14px;
 }
 
-.headerSignedIn{
-  border: none !important;
-}
-
 .nav-pills > li.active > a {
   color: white !important;
 }
