@@ -1,3 +1,6 @@
+/*** fonts ***/
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap");
+
 /*****  CHANGES BY SKÖVDE KOMMUN IT/ALICE *****/
 :root {
   --primary-color: #40d1ba;
@@ -10,9 +13,6 @@
   --accent-color-lighter: #fbf1ea;
   --accent-color-dark: #7f471c;
   --accent-color-darker: #150c05;
-  --alternate-accent-color: #cb85eb;
-  --alternate-accent-color-light: #e5c2f570;
-  --alternate-accent-color: #664376;
   --alert-color: #d42f2f;
   --box-shadow: 0 1px 3px 0 #cccccc;
 }
@@ -225,7 +225,6 @@ i {
 
 .well {
   min-height: 150px !important;
-  background-color: var(--alternate-accent-color-light) !important;
 }
 
 UL > LI > .z-a {
