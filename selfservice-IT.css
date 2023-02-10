@@ -213,6 +213,11 @@ span.bootstrap.z-datebox a.z-datebox-button:hover {
   border-radius: 0 0 4px 4px;
   text-align: center;
   box-shadow: 0 -5px 3px 0 #ffffff, 0 1px 4px 0 #cccccc;
+  padding: 15px;
+}
+
+.frontpage .content > .z-window > .z-window-content > .row{
+  padding: 15px;
 }
 
 .frontpage
@@ -249,7 +254,8 @@ UL > LI > .z-a {
 }
 
 .btn-success{
-  background-color: var(--success-color);
+  background-color: var(--accent-color);
+  border-color: var(--accent-color-dark);
 }
 
 .btn-success:hover,
