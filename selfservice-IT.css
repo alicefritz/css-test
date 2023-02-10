@@ -10,6 +10,9 @@
   --accent-color-lighter: #fbf1ea;
   --accent-color-dark: #7f471c;
   --accent-color-darker: #150c05;
+  --alternate-accent-color: #cb85eb;
+  --alternate-accent-color-light: #e5c2f5;
+  --alternate-accent-color: #664376;
 }
 
 html,
@@ -212,6 +215,7 @@ i {
 
 .well {
   min-height: 150px !important;
+  background-color: var(--alternate-accent-color-light) !important;
 }
 
 UL > LI > .z-a {
