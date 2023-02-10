@@ -11,8 +11,9 @@
   --accent-color-dark: #7f471c;
   --accent-color-darker: #150c05;
   --alternate-accent-color: #cb85eb;
-  --alternate-accent-color-light: #e5c2f5;
+  --alternate-accent-color-light: #e5c2f570;
   --alternate-accent-color: #664376;
+  --alert-color: #d42f2f;
 }
 
 html,
@@ -147,7 +148,7 @@ header .logo > div:first-of-type {
   background-color: var(--primary-color);
 }
 .widget.messageboard > .widget-title {
-  background-color: var(--accent-color-dark);
+  background-color: var(--alert-color);
 }
 span.bootstrap.z-datebox a.z-datebox-button {
   background: var(--primary-color);
