@@ -183,6 +183,7 @@ span.bootstrap.z-datebox a.z-datebox-button:hover {
   > .z-window.z-window-noborder.z-window-noheader.z-window-embedded:first-of-type {
   border-radius: 4px 4px 0 0;
   text-align: initial;
+  box-shadow: var(--box-shadow);
 }
 
 .frontpage
@@ -191,6 +192,7 @@ span.bootstrap.z-datebox a.z-datebox-button:hover {
   ~ .z-window.z-window-noborder.z-window-noheader.z-window-embedded {
   border-radius: 0 0 4px 4px;
   text-align: center;
+  box-shadow: 0 -2px 3px 0 #ffffff, 0 1px 3px 0 #cccccc;
 }
 
 .frontpage
