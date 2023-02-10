@@ -190,13 +190,17 @@ span.bootstrap.z-datebox a.z-datebox-button:hover {
   box-shadow: var(--box-shadow);
 }
 
+.frontpage .content > .z-window.z-window-noborder.z-window-noheader.z-window-embedded:first-of-type > .z-window-content{
+  padding: 0;
+}
+
 .frontpage
   .content
   > .z-window.z-window-noborder.z-window-noheader.z-window-embedded
   ~ .z-window.z-window-noborder.z-window-noheader.z-window-embedded {
   border-radius: 0 0 4px 4px;
   text-align: center;
-  box-shadow: 0 -2px 3px 0 #ffffff, 0 1px 3px 0 #cccccc;
+  box-shadow: 0 -5px 3px 0 #ffffff, 0 1px 4px 0 #cccccc;
 }
 
 .frontpage
@@ -225,6 +229,7 @@ i {
 
 .well {
   min-height: 150px !important;
+  border-radius: 4px;
 }
 
 UL > LI > .z-a {
@@ -266,10 +271,6 @@ button > i,
   font-size: 14px;
 }
 
-.headerSignedIn{
-  border: none !important;
-}
-
 .nav-pills > li.active > a {
   color: white !important;
 }
@@ -304,4 +305,3 @@ a:focus{
   flex-wrap: wrap;
 }
 *****/
-
