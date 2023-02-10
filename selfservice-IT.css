@@ -14,6 +14,7 @@
   --alternate-accent-color-light: #e5c2f570;
   --alternate-accent-color: #664376;
   --alert-color: #d42f2f;
+  --box-shadow: 0 1px 3px 0 #cccccc;
 }
 
 html,
@@ -88,6 +89,7 @@ h6,
 .well {
   background-color: white;
   text-align: center;
+  box-shadow: var(--box-shadow);
 }
 .well:hover {
   outline: 2px solid var(--primary-color-dark);
@@ -142,6 +144,7 @@ header .logo > div:first-of-type {
 }
 .widget {
   border: none;
+  box-shadow: var(--box-shadow);
 }
 .widget .widget-title {
   color: white;
