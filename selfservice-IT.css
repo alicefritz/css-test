@@ -185,7 +185,7 @@ span.bootstrap.z-datebox a.z-datebox-button:hover {
 .frontpage
   .content
   > .z-window.z-window-noborder.z-window-noheader.z-window-embedded:first-of-type {
-  border-radius: 10px 10px 0 0;
+  border-radius: 4px 4px 0 0;
   text-align: initial;
   box-shadow: var(--box-shadow);
 }
@@ -198,7 +198,7 @@ span.bootstrap.z-datebox a.z-datebox-button:hover {
   .content
   > .z-window.z-window-noborder.z-window-noheader.z-window-embedded
   ~ .z-window.z-window-noborder.z-window-noheader.z-window-embedded {
-  border-radius: 0 0 10px 10px;
+  border-radius: 0 0 4px 4px;
   text-align: center;
   box-shadow: 0 -2px 3px 0 #ffffff, 0 1px 3px 0 #cccccc;
 }
@@ -206,14 +206,14 @@ span.bootstrap.z-datebox a.z-datebox-button:hover {
 .frontpage
   .sidebar
   > .z-window.z-window-noborder.z-window-noheader.z-window-embedded {
-  border-radius: 0 0 10px 10px;
+  border-radius: 0 0 4px 4px;
   background-color: transparent;
 }
 
 .frontpage
   .sidebar
   > .z-window.z-window-noborder.z-window-noheader.z-window-embedded:first-of-type {
-  border-radius: 10px 10px 0 0;
+  border-radius: 4px 4px 0 0;
 }
 
 .frontpage
@@ -229,7 +229,7 @@ i {
 
 .well {
   min-height: 150px !important;
-  border-radius: 10px;
+  border-radius: 4px;
 }
 
 UL > LI > .z-a {
@@ -281,7 +281,7 @@ button > i,
 
 #faqList ~ .z-div {
   background-color: white;
-  border-radius: 10px;
+  border-radius: 4px;
   padding: 15px;
 }
 
