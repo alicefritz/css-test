@@ -151,7 +151,7 @@ header .logo > div:first-of-type {
   background-color: var(--primary-color-dark);
 }
 
-.widget.messageboard{
+.content .widget{
   box-shadow: none;
   text-align: initial;
 }
