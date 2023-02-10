@@ -148,7 +148,11 @@ header .logo > div:first-of-type {
 }
 .widget .widget-title {
   color: white;
-  background-color: var(--primary-color);
+  background-color: var(--primary-color-dark);
+}
+
+.widget.messageboard{
+  box-shadow: none;
 }
 .widget.messageboard > .widget-title {
   background-color: var(--alert-color);
