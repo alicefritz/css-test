@@ -8,12 +8,13 @@
   --primary-color-lighter: #ecfaf8;
   --primary-color-dark: #267d70;
   --primary-color-darker: #061513;
-  --accent-color: #d4772f;
-  --accent-color-light: #e5ad82;
-  --accent-color-lighter: #fbf1ea;
-  --accent-color-dark: #7f471c;
-  --accent-color-darker: #150c05;
+  --accent-color: #cb85eb;
+  --accent-color-light: #d59def;
+  --accent-color-lighter: #e0b6f3;
+  --accent-color-dark: #a26abc;
+  --accent-color-darker: #7a508d;
   --alert-color: #d42f2f;
+  --success-color: #00661F;
   --box-shadow: 0 1px 3px 0 #cccccc;
 }
 
