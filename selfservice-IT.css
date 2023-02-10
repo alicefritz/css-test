@@ -249,8 +249,7 @@ UL > LI > .z-a {
 }
 
 .btn-success{
-  background-color: var(--accent-color);
-  border-color: var(--accent-color-dark);
+  background-color: var(--success-color);
 }
 
 .btn-success:hover,
