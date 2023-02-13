@@ -341,7 +341,7 @@ button > i,
 
 .headerSignedIn .z-label::before {
   content: "Inloggad som:";
-  color: white;
+  color: var(--accent-color-dark);
   font-size: 14px;
 }
 
