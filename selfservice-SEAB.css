@@ -95,8 +95,21 @@ h6,
   outline: 2px solid var(--primary-color-dark);
 }
 header {
-  background-color: var(--primary-color-dark);
+  background-color: white;
   display: flex;
+}
+
+header::after {
+  content: '';
+  height: 10px;
+  background-color: var(--accent-color);
+  position: absolute !important;
+  width: 100%;
+  top: 100%;
+}
+
+header * {
+  color: black;
 }
 header > div > div {
   display: flex;
