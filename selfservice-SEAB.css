@@ -128,6 +128,7 @@ header .logo > div:first-of-type {
 
 header .headerSignedIn{
   border-color: var(--primary-color) !important;
+  border-radius: 10px !important;
 }
 
 header .headerSignedIn span{
@@ -364,7 +365,7 @@ a:focus{
 }
 
 *{
-  border-radius: 0 !important;
+  border-radius: 0;
   box-shadow: none !important;
 }
 
