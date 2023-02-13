@@ -31,7 +31,7 @@ textarea,
 }
 
 body {
-  background-color: var(--primary-color-lighter) !important;
+  background-color: white !important;
 }
 
 h1 {
@@ -270,6 +270,7 @@ i {
   left: 0;
   background-color: var(--primary-color);
   position: absolute;
+  width: 100%;
 }
 
 UL > LI > .z-a {
