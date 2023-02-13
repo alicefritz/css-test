@@ -168,10 +168,10 @@ header .headerSignedIn{
 .widget .widget-title {
   color: var(--primary-color);
   background-color: transparent;
-
+  border-bottom: none;
 }
 
-.widget .widget-title{
+.widget .widget-title::before{
   content: '';
   position: absolute;
   width: 100%;
