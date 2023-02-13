@@ -125,6 +125,10 @@ header .logo {
 header .logo > div:first-of-type {
   display: none;
 }
+
+header .headerSignedIn{
+  border-color: var(--primary-color);
+}
 /*header div:has(.headerSignedIn){
   display: flex;
   justify-content: flex-end;
@@ -159,10 +163,22 @@ header .logo > div:first-of-type {
 .widget {
   border: none;
   box-shadow: var(--box-shadow);
+  position: relative;
 }
 .widget .widget-title {
-  color: white;
-  background-color: var(--primary-color-dark);
+  color: var(--primary-color);
+  background-color: transparent;
+
+}
+
+.widget .widget-title{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 5px;
+  top: 0;
+  left: 0;
+  background-color: var(--primary-color);
 }
 
 .content .widget{
