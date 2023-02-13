@@ -87,7 +87,7 @@ h6,
   background-color: var(--accent-color-dark);
 }
 .well {
-  background-color: white;
+  background-color: var(--primary-color-lighter);
   text-align: center;
   box-shadow: var(--box-shadow);
 }
@@ -97,6 +97,7 @@ h6,
 header {
   background-color: white;
   display: flex;
+  position: relative;
 }
 
 header::after {
@@ -259,6 +260,16 @@ i {
 .well {
   min-height: 150px !important;
   border-radius: 4px;
+  position: relative;
+}
+
+.well::before{
+  content: '';
+  height: 5px;
+  top: 0;
+  left: 0;
+  background-color: var(--primary-color);
+  position: absolute;
 }
 
 UL > LI > .z-a {
