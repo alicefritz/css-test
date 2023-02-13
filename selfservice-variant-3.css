@@ -1,0 +1,324 @@
+/*** fonts ***/
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap");
+
+/*****  CHANGES BY SKÖVDE KOMMUN IT/ALICE *****/
+:root {
+  --primary-color: #a42893;
+  --primary-color-light: #c87ebe;
+  --primary-color-lighter: #edd4e9;
+  --primary-color-dark: #621858;
+  --primary-color-darker: #10040f;
+  --accent-color: #cb85eb;
+  --accent-color-light: #d59def;
+  --accent-color-lighter: #e0b6f3;
+  --accent-color-dark: #a26abc;
+  --accent-color-darker: #7a508d;
+  --alert-color: #d42f2f;
+  --success-color: #00661F;
+  --box-shadow: 0 1px 3px 0 #cccccc;
+}
+
+html,
+body,
+.carousel-control .icon-prev,
+.carousel-control .icon-next,
+header .logo h1,
+button,
+input,
+select,
+textarea,
+.btn-help {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+body {
+  background-color: var(--primary-color-lighter) !important;
+}
+
+h1 {
+  color: white !important;
+}
+a:hover,
+a:focus {
+  color: var(--primary-color-dark);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 500;
+  line-height: 1.1;
+  color: var(--primary-color-darker);
+}
+.btn:focus,
+.btn:hover,
+.btn:active,
+.btn.active {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.btn-primary {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color-dark);
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  background-color: var(--primary-color-dark);
+  border-color: var(--primary-color-darker);
+}
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+  color: #ffffff;
+  background-color: var(--primary-color);
+}
+.badge {
+  background-color: var(--accent-color-dark);
+}
+.well {
+  background-color: white;
+  text-align: center;
+  box-shadow: var(--box-shadow);
+}
+.well:hover {
+  outline: 2px solid var(--primary-color-dark);
+}
+header {
+  background-color: var(--primary-color-dark);
+  display: flex;
+}
+header > div > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .logo {
+  display: flex !important;
+}
+
+header .logo > div:first-of-type {
+  display: none;
+}
+/*header div:has(.headerSignedIn){
+  display: flex;
+  justify-content: flex-end;
+}  */
+.headerSignedIn > .z-div:first-of-type {
+  /* display: none !important;*/
+  display: none;
+}
+
+.frontpage header > .container.z-div > .col-xs-4.z-div {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.headerSignedIn > .z-div > .btn.btn-danger.pull-right.z-a {
+  display: none;
+}
+
+.headerSignedIn span {
+  font-size: 24px;
+  color: white;
+}
+
+.headerSignedIn .z-div {
+  padding: 0 !important;
+  display: flex;
+}
+
+.back-well {
+  background-color: white;
+}
+.widget {
+  border: none;
+  box-shadow: var(--box-shadow);
+}
+.widget .widget-title {
+  color: white;
+  background-color: var(--primary-color-dark);
+}
+
+.content .widget{
+  box-shadow: none;
+  text-align: initial;
+}
+.widget.messageboard > .widget-title {
+  background-color: var(--alert-color);
+}
+span.bootstrap.z-datebox a.z-datebox-button {
+  background: var(--primary-color);
+  border-color: var(--primary-color-darker);
+}
+span.bootstrap.z-datebox a.z-datebox-button:hover {
+  background-color: var(--primary-color-dark);
+  border-color: var(--primary-color-darker);
+}
+#faqSearchButton,
+#searchButton {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+#faqSearchButton:hover,
+#searchButton:hover {
+  background-color: var(--primary-color-dark);
+  color: white;
+}
+
+#faqSearchButton i,
+#searchButton i {
+  color: white !important;
+}
+
+.frontpage
+  .content
+  > .z-window.z-window-noborder.z-window-noheader.z-window-embedded:first-of-type {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  text-align: center;
+  box-shadow: var(--box-shadow);
+}
+
+.frontpage .content > .z-window.z-window-noborder.z-window-noheader.z-window-embedded:first-of-type > .z-window-content{
+  padding: 0;
+}
+
+.frontpage
+  .content
+  > .z-window.z-window-noborder.z-window-noheader.z-window-embedded{
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  text-align: center;
+  box-shadow: 0 -5px 3px 0 #ffffff, 0 1px 4px 0 #cccccc;
+}
+
+.frontpage
+  .content
+  > .z-window.z-window-noborder.z-window-noheader.z-window-embedded
+  ~ .z-window.z-window-noborder.z-window-noheader.z-window-embedded {
+  border-radius: 0 0 4px 4px;
+  text-align: center;
+  box-shadow: 0 -5px 3px 0 #ffffff, 0 1px 4px 0 #cccccc;
+  padding: 15px;
+}
+
+.frontpage .content > .z-window > .z-window-content > .row{
+  padding: 15px;
+}
+
+.frontpage
+  .sidebar
+  > .z-window.z-window-noborder.z-window-noheader.z-window-embedded {
+  border-radius: 0 0 4px 4px;
+  background-color: transparent;
+}
+
+.frontpage
+  .sidebar
+  > .z-window.z-window-noborder.z-window-noheader.z-window-embedded:first-of-type {
+  border-radius: 4px 4px 0 0;
+}
+
+.frontpage
+  .sidebar
+  > .z-window.z-window-noborder.z-window-noheader.z-window-embedded
+  > div {
+  background-color: transparent;
+}
+
+i {
+  color: var(--primary-color-darker) !important;
+}
+
+.well {
+  min-height: 150px !important;
+  border-radius: 4px;
+}
+
+UL > LI > .z-a {
+  color: var(--primary-color-darker) !important;
+}
+
+.btn-success{
+  background-color: var(--accent-color);
+  border-color: var(--accent-color-dark);
+}
+
+.btn-success:hover,
+.btn-success:focus,
+.btn-success:active,
+.btn-success.active,
+.open .dropdown-toggle.btn-success {
+  color: #ffffff;
+  background-color: var(--accent-color-dark);
+  border-color: var(--accent-color-darker);
+}
+
+button > i,
+.btn-success > i {
+  color: white !important;
+}
+
+.z-datebox-icon {
+  color: white !important;
+}
+
+.headerSignedIn .z-label {
+  display: flex;
+  flex-direction: column;
+}
+
+.headerSignedIn .z-label::before {
+  content: "Inloggad som:";
+  color: white;
+  font-size: 14px;
+}
+
+.nav-pills > li.active > a {
+  color: white !important;
+}
+
+#faqList ~ .z-div {
+  background-color: white;
+  border-radius: 4px;
+  padding: 15px;
+}
+
+a:focus{
+  outline-color: var(--accent-color-dark) !important;
+}
+
+.z-a:hover{
+  color: var(--primary-color-light);
+}
+
+/***** UNCOMMENT THIS FOR "BIG-BUTTON" LAYOUT FOR "MINA ÄRENDEN"
+.frontpage .row.z-div > .col-sm-6.z-div:first-of-type > div > a > div{
+  display: flex;
+  flex-direction: column;
+}
+.frontpage .row.z-div > .col-sm-6.z-div:first-of-type > div > a{
+  flex-basis: 100%;
+}
+.frontpage .row.z-div > .col-sm-6.z-div:first-of-type{
+  flex-basis: 100%;
+}
+.frontpage .row.z-div:first-of-type{
+  display: flex;
+  flex-wrap: wrap;
+}
+*****/
