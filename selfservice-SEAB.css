@@ -187,7 +187,9 @@ header .headerSignedIn{
 }
 .widget.messageboard > .widget-title {
   background-color: var(--alert-color);
+  color: white;
 }
+
 span.bootstrap.z-datebox a.z-datebox-button {
   background: var(--primary-color);
   border-color: var(--primary-color-darker);
@@ -346,6 +348,11 @@ a:focus{
   color: var(--primary-color-light);
 }
 
+*{
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+
 /***** UNCOMMENT THIS FOR "BIG-BUTTON" LAYOUT FOR "MINA ÄRENDEN"
 .frontpage .row.z-div > .col-sm-6.z-div:first-of-type > div > a > div{
   display: flex;
@@ -362,3 +369,5 @@ a:focus{
   flex-wrap: wrap;
 }
 *****/
+
+
