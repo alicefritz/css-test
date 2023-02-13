@@ -164,6 +164,7 @@ header .headerSignedIn{
   border: none;
   box-shadow: var(--box-shadow);
   position: relative;
+  background-color: var(--primary-color-lighter);
 }
 .widget .widget-title {
   color: var(--primary-color);
@@ -188,6 +189,10 @@ header .headerSignedIn{
 .widget.messageboard > .widget-title {
   background-color: var(--alert-color);
   color: white;
+}
+
+.widget.messageboard > .widget-title::before{
+  content:none;
 }
 
 span.bootstrap.z-datebox a.z-datebox-button {
