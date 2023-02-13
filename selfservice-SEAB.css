@@ -90,6 +90,7 @@ h6,
   background-color: var(--primary-color-lighter);
   text-align: center;
   box-shadow: var(--box-shadow);
+  border: none;
 }
 .well:hover {
   outline: 2px solid var(--primary-color-dark);
