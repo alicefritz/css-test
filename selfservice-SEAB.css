@@ -127,7 +127,6 @@ header .logo > div:first-of-type {
 }
 
 header .headerSignedIn{
-  border-color: var(--primary-color) !important;
   border-radius: 10px !important;
 }
 
