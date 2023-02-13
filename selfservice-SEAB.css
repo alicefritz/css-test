@@ -172,6 +172,7 @@ header .headerSignedIn span{
   box-shadow: var(--box-shadow);
   position: relative;
   background-color: var(--primary-color-lighter);
+  border-radius: 0;
 }
 .widget .widget-title {
   color: var(--primary-color);
