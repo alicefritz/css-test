@@ -56,7 +56,7 @@ h6,
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 500;
   line-height: 1.1;
-  color: var(--primary-color-darker);
+  color: var(--accent-color-darker);
 }
 .btn:focus,
 .btn:hover,
@@ -128,6 +128,7 @@ header .logo > div:first-of-type {
 
 header .headerSignedIn{
   border-radius: 10px !important;
+  background-color: var(--accent-color-lighter);
 }
 
 header .headerSignedIn span{
