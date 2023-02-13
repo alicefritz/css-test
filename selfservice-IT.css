@@ -156,8 +156,14 @@ header .logo > div:first-of-type {
   box-shadow: none;
   text-align: initial;
 }
+.widget.messageboard{
+  display: none;
+}
 .widget.messageboard > .widget-title {
   background-color: var(--alert-color);
+}
+.widget.messageboard:has(div):has(.messageboard-item){
+  display: block;
 }
 span.bootstrap.z-datebox a.z-datebox-button {
   background: var(--primary-color);
