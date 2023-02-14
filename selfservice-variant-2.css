@@ -15,6 +15,8 @@
   --accent-color-darker: #150505;
   --alert-color: #d42f2f;
   --success-color: #00661F;
+  --success-color-dark: #0B501E;
+  --success-color-darker: #082B0E;
   --box-shadow: 0 1px 3px 0 #cccccc;
 }
 
@@ -254,8 +256,8 @@ UL > LI > .z-a {
 }
 
 .btn-success{
-  background-color: var(--accent-color);
-  border-color: var(--accent-color-dark);
+  background-color: var(--success-color);
+  border-color: var(--success-color-dark);
 }
 
 .btn-success:hover,
@@ -264,8 +266,8 @@ UL > LI > .z-a {
 .btn-success.active,
 .open .dropdown-toggle.btn-success {
   color: #ffffff;
-  background-color: var(--accent-color-dark);
-  border-color: var(--accent-color-darker);
+  background-color: var(--success-color-dark);
+  border-color: var(--success-color-darker);
 }
 
 button > i,
