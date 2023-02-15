@@ -18,6 +18,8 @@
   --success-color-dark: #0B501E;
   --success-color-darker: #082B0E;
   --box-shadow: 0 1px 3px 0 #cccccc;
+  --box-shadow: none;
+  --border: 1px solid var(--primary-color-dark);
 }
 
 html,
@@ -93,6 +95,7 @@ h6,
   background-color: white;
   text-align: center;
   box-shadow: var(--box-shadow);
+  border: var(--border);
 }
 .well:hover {
   outline: 2px solid var(--primary-color-dark);
@@ -146,7 +149,7 @@ header .logo > div:first-of-type {
   background-color: white;
 }
 .widget {
-  border: none;
+  border: var(--border);
   box-shadow: var(--box-shadow);
 }
 .widget .widget-title {
@@ -158,8 +161,14 @@ header .logo > div:first-of-type {
   box-shadow: none;
   text-align: initial;
 }
+.widget.messageboard{
+  display: block;
+}
 .widget.messageboard > .widget-title {
   background-color: var(--alert-color);
+}
+.widget.messageboard:not(:has(div):has(.messageboard-item)){
+  display: none;
 }
 span.bootstrap.z-datebox a.z-datebox-button {
   background: var(--primary-color);
@@ -206,6 +215,7 @@ span.bootstrap.z-datebox a.z-datebox-button:hover {
   border-bottom-right-radius: 4px;
   text-align: center;
   box-shadow: 0 -5px 3px 0 #ffffff, 0 1px 4px 0 #cccccc;
+  border: var(--border);
 }
 
 .frontpage
@@ -306,6 +316,10 @@ a:focus{
 
 .z-a:hover{
   color: var(--primary-color-light);
+}
+
+.form-control{
+  border: var(--border);
 }
 
 /***** UNCOMMENT THIS FOR "BIG-BUTTON" LAYOUT FOR "MINA ÄRENDEN"
