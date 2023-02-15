@@ -318,6 +318,10 @@ a:focus{
   color: var(--primary-color-light);
 }
 
+.form-control{
+  border: var(--border);
+}
+
 /***** UNCOMMENT THIS FOR "BIG-BUTTON" LAYOUT FOR "MINA ÄRENDEN"
 .frontpage .row.z-div > .col-sm-6.z-div:first-of-type > div > a > div{
   display: flex;
