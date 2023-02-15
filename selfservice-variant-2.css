@@ -355,3 +355,9 @@ a:focus{
 .mobileItemListComponent .mobile-listbox .z-listitem.z-listitem-selected:hover.z-listitem-focus {
   background-color: var(--primary-color-dark) !important;
 }
+.form-control:focus, .z-textbox:focus, .z-decimalbox:focus, .z-intbox:focus, .z-longbox:focus, .z-doublebox:focus, .z-select:focus, .z-checkbox input:focus, .z-datebox input:focus, .map-function .mapButton:focus, .z-radiogroup input[type="radio"]:focus{
+  outline-color: var(--primary-color-dark) !important;
+}
+.form-control:focus{
+  border-color: var(--primary-color) !important;
+}
