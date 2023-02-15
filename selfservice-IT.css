@@ -18,6 +18,7 @@
   --success-color-dark: #0B501E;
   --success-color-darker: #082B0E;
   --box-shadow: 0 1px 3px 0 #cccccc;
+  --border: 1px solid var(var(--primary-color-dark));
 }
 
 html,
@@ -93,6 +94,7 @@ h6,
   background-color: white;
   text-align: center;
   box-shadow: var(--box-shadow);
+  border: var(--border);
 }
 .well:hover {
   outline: 2px solid var(--primary-color-dark);
