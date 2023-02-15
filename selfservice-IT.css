@@ -19,7 +19,7 @@
   --success-color-darker: #082B0E;
   --box-shadow: 0 1px 3px 0 #cccccc;
   --box-shadow: none;
-  --border: 1px solid var(var(--primary-color-dark));
+  --border: 1px solid var(--primary-color-dark);
 }
 
 html,
