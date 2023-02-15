@@ -346,3 +346,6 @@ a:focus{
 .mobileItemListComponent .mobile-listbox .z-listitem.z-listitem-selected{
   background-color: var(--primary-color) !important;
 }
+.mobileItemListComponent .mobile-listbox .z-listitem.z-listitem-selected:hover{
+  background-color: var(--primary-color-dark) !important;
+}
