@@ -155,6 +155,11 @@ header .logo > div:first-of-type {
 .widget .widget-title {
   color: white;
   background-color: var(--primary-color-dark);
+  padding: 15px;
+}
+
+.widget .widget-title{
+  font-size: 18px;
 }
 
 .content .widget{
