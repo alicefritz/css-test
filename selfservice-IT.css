@@ -95,7 +95,6 @@ h6,
   background-color: white;
   text-align: center;
   box-shadow: var(--box-shadow);
-  border: var(--border);
 }
 .well:hover {
   outline: 2px solid var(--primary-color-dark);
@@ -149,7 +148,7 @@ header .logo > div:first-of-type {
   background-color: white;
 }
 .widget {
-  border: none;
+  border: var(--border);
   box-shadow: var(--box-shadow);
 }
 .widget .widget-title {
