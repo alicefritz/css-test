@@ -158,7 +158,7 @@ header .logo > div:first-of-type {
   padding: 15px;
 }
 
-.widget .widget-title{
+.widget .widget-title span{
   font-size: 18px;
 }
 
