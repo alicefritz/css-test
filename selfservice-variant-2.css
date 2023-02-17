@@ -155,6 +155,11 @@ header .logo > div:first-of-type {
 .widget .widget-title {
   color: white;
   background-color: var(--primary-color-dark);
+  padding: 15px;
+}
+
+.widget .widget-title span{
+  font-size: 18px;
 }
 
 .content .widget{
@@ -164,12 +169,12 @@ header .logo > div:first-of-type {
 .widget.messageboard{
   display: block;
 }
+.widget.messageboard > .widget-title {
+  background-color: var(--alert-color);
+}
 .widget.messageboard .messageboard-item:last-of-type{
   border-bottom: none;
   border-radius: 0 0 4px 4px
-}
-.widget.messageboard > .widget-title {
-  background-color: var(--alert-color);
 }
 .widget.messageboard:not(:has(div):has(.messageboard-item)){
   display: none;
@@ -199,13 +204,17 @@ span.bootstrap.z-datebox a.z-datebox-button:hover {
   color: white !important;
 }
 
+.z-window-noborder.z-window-noheader .z-window-content{
+  background-color: transparent;
+  padding: 0;
+}
+
 .frontpage
   .content
   > .z-window.z-window-noborder.z-window-noheader.z-window-embedded:first-of-type {
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
   text-align: center;
-  box-shadow: var(--box-shadow);
 }
 
 .frontpage .content > .z-window.z-window-noborder.z-window-noheader.z-window-embedded:first-of-type > .z-window-content{
@@ -215,25 +224,36 @@ span.bootstrap.z-datebox a.z-datebox-button:hover {
 .frontpage
   .content
   > .z-window.z-window-noborder.z-window-noheader.z-window-embedded{
-  border-bottom-left-radius: 4px;
-  border-bottom-right-radius: 4px;
+  border-radius: 4px;
   text-align: center;
-  box-shadow: 0 -5px 3px 0 #ffffff, 0 1px 4px 0 #cccccc;
-  border: var(--border);
+  background-color: transparent;
+}
+
+.frontpage
+  .content
+  > .z-window.z-window-noborder.z-window-noheader.z-window-embedded
+  > .z-window-content{
+  border: 0;
 }
 
 .frontpage
   .content
   > .z-window.z-window-noborder.z-window-noheader.z-window-embedded
   ~ .z-window.z-window-noborder.z-window-noheader.z-window-embedded {
-  border-radius: 0 0 4px 4px;
   text-align: center;
-  box-shadow: 0 -5px 3px 0 #ffffff, 0 1px 4px 0 #cccccc;
-  padding: 15px;
 }
 
 .frontpage .content > .z-window > .z-window-content > .row{
   padding: 15px;
+  border: var(--border);
+  border-radius: 4px;
+  background-color: white;
+  margin: 0;
+}
+
+.frontpage .content > .z-window > .z-window-content > .row > .col-md-12.z-div > .p.z-div{
+  display: flex;
+  
 }
 
 .frontpage
@@ -327,24 +347,6 @@ a:focus{
   border: var(--border);
 }
 
-/***** UNCOMMENT THIS FOR "BIG-BUTTON" LAYOUT FOR "MINA ÄRENDEN"
-.frontpage .row.z-div > .col-sm-6.z-div:first-of-type > div > a > div{
-  display: flex;
-  flex-direction: column;
-}
-.frontpage .row.z-div > .col-sm-6.z-div:first-of-type > div > a{
-  flex-basis: 100%;
-}
-.frontpage .row.z-div > .col-sm-6.z-div:first-of-type{
-  flex-basis: 100%;
-}
-.frontpage .row.z-div:first-of-type{
-  display: flex;
-  flex-wrap: wrap;
-}
-*****/
-
-
 .list_item_in_focus{
   background-color: var(--primary-color) !important;
 }
@@ -366,3 +368,20 @@ a:focus{
 .form-control:focus{
   border-color: var(--primary-color) !important;
 }
+
+/***** UNCOMMENT THIS FOR "BIG-BUTTON" LAYOUT FOR "MINA ÄRENDEN"
+.frontpage .row.z-div > .col-sm-6.z-div:first-of-type > div > a > div{
+  display: flex;
+  flex-direction: column;
+}
+.frontpage .row.z-div > .col-sm-6.z-div:first-of-type > div > a{
+  flex-basis: 100%;
+}
+.frontpage .row.z-div > .col-sm-6.z-div:first-of-type{
+  flex-basis: 100%;
+}
+.frontpage .row.z-div:first-of-type{
+  display: flex;
+  flex-wrap: wrap;
+}
+*****/
