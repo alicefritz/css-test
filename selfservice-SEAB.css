@@ -8286,6 +8286,9 @@ header .headerSignedIn span{
   box-shadow: none;
   text-align: initial;
 }
+.widget.messageboard .messageboard-item ~ .messageboard-item{
+  border-bottom: none;
+}
 .widget.messageboard > .widget-title {
   background-color: var(--alert-color);
   color: white;
