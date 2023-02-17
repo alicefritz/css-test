@@ -166,6 +166,7 @@ header .logo > div:first-of-type {
 }
 .widget.messageboard .messageboard-item:last-of-type{
   border-bottom: none;
+  border-radius: 0 0 4px 4px
 }
 .widget.messageboard > .widget-title {
   background-color: var(--alert-color);
