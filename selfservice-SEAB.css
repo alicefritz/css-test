@@ -8471,6 +8471,28 @@ a:focus{
   margin-top: 30px;
 }
 
+.list_item_in_focus{
+  background-color: var(--primary-color) !important;
+}
+.mobileItemListComponent .mobile-listbox .z-listitem.z-listitem-selected{
+  background-color: var(--primary-color) !important;
+}
+.mobileItemListComponent .mobile-listbox .z-listitem.z-listitem-selected:hover{
+  background-color: var(--primary-color-dark) !important;
+}
+.mobileItemListComponent .mobile-listbox .z-listitem.z-listitem-selected.z-listitem-focus {
+  background-color: var(--primary-color-dark) !important;
+}
+.mobileItemListComponent .mobile-listbox .z-listitem.z-listitem-selected:hover.z-listitem-focus {
+  background-color: var(--primary-color-dark) !important;
+}
+.form-control:focus, .z-textbox:focus, .z-decimalbox:focus, .z-intbox:focus, .z-longbox:focus, .z-doublebox:focus, .z-select:focus, .z-checkbox input:focus, .z-datebox input:focus, .map-function .mapButton:focus, .z-radiogroup input[type="radio"]:focus{
+  outline-color: var(--primary-color-dark) !important;
+}
+.form-control:focus{
+  border-color: var(--primary-color) !important;
+}
+
 /***** UNCOMMENT THIS FOR "BIG-BUTTON" LAYOUT FOR "MINA ÄRENDEN"
 .frontpage .row.z-div > .col-sm-6.z-div:first-of-type > div > a > div{
   display: flex;
