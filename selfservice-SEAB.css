@@ -8289,6 +8289,9 @@ header .headerSignedIn span{
 .widget.messageboard .messageboard-item ~ .messageboard-item{
   border-bottom: none;
 }
+.messageBoardWidget .messageboard-item:hover, .messageBoardWidget .messageboard-item:focus{
+  background-color: var(--primary-color-light);
+}
 .widget.messageboard > .widget-title {
   background-color: var(--alert-color);
   color: white;
