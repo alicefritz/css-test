@@ -204,6 +204,10 @@ span.bootstrap.z-datebox a.z-datebox-button:hover {
   color: white !important;
 }
 
+.z-window-noborder.z-window-noheader .z-window-content{
+  background-color: transparent;
+}
+
 .frontpage
   .content
   > .z-window.z-window-noborder.z-window-noheader.z-window-embedded:first-of-type {
@@ -223,6 +227,13 @@ span.bootstrap.z-datebox a.z-datebox-button:hover {
   text-align: center;
   background-color: transparent;
   border: var(--border);
+}
+
+.frontpage
+  .content
+  > .z-window.z-window-noborder.z-window-noheader.z-window-embedded
+  > .z-window-content{
+  border: 0;
 }
 
 .frontpage
