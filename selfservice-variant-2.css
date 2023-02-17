@@ -164,6 +164,9 @@ header .logo > div:first-of-type {
 .widget.messageboard{
   display: block;
 }
+.widget.messageboard .messageboard-item:last-of-type{
+  border-bottom: none;
+}
 .widget.messageboard > .widget-title {
   background-color: var(--alert-color);
 }
