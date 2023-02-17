@@ -210,7 +210,6 @@ span.bootstrap.z-datebox a.z-datebox-button:hover {
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
   text-align: center;
-  box-shadow: var(--box-shadow);
 }
 
 .frontpage .content > .z-window.z-window-noborder.z-window-noheader.z-window-embedded:first-of-type > .z-window-content{
@@ -220,10 +219,9 @@ span.bootstrap.z-datebox a.z-datebox-button:hover {
 .frontpage
   .content
   > .z-window.z-window-noborder.z-window-noheader.z-window-embedded{
-  border-bottom-left-radius: 4px;
-  border-bottom-right-radius: 4px;
+  border-radius: 4px;
   text-align: center;
-  box-shadow: 0 -5px 3px 0 #ffffff, 0 1px 4px 0 #cccccc;
+  background-color: transparent;
   border: var(--border);
 }
 
@@ -231,9 +229,7 @@ span.bootstrap.z-datebox a.z-datebox-button:hover {
   .content
   > .z-window.z-window-noborder.z-window-noheader.z-window-embedded
   ~ .z-window.z-window-noborder.z-window-noheader.z-window-embedded {
-  border-radius: 0 0 4px 4px;
   text-align: center;
-  box-shadow: 0 -5px 3px 0 #ffffff, 0 1px 4px 0 #cccccc;
   padding: 15px;
 }
 
