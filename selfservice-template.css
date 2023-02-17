@@ -13,6 +13,13 @@
     --accent-color: #F79848;
     --accent-color-dark: #D76609;
     --accent-color-darker: #774013;
+    --alert-color: #d42f2f;
+    --success-color: #00661F;
+    --success-color-dark: #0B501E;
+    --success-color-darker: #082B0E;
+    --box-shadow: 0 1px 3px 0 #cccccc;
+    --box-shadow: none;
+    --border: 1px solid var(--primary-color-dark);
 }
 
 html,
