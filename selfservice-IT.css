@@ -172,6 +172,10 @@ header .logo > div:first-of-type {
 .widget.messageboard > .widget-title {
   background-color: var(--alert-color);
 }
+.widget.messageboard .messageboard-item:last-of-type{
+  border-bottom: none;
+  border-radius: 0 0 4px 4px
+}
 .widget.messageboard:not(:has(div):has(.messageboard-item)){
   display: none;
 }
@@ -255,6 +259,7 @@ span.bootstrap.z-datebox a.z-datebox-button:hover {
   > .z-window.z-window-noborder.z-window-noheader.z-window-embedded
   > div {
   background-color: transparent;
+  padding: 0 !important;
 }
 
 i {
