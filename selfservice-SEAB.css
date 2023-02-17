@@ -8286,7 +8286,7 @@ header .headerSignedIn span{
   box-shadow: none;
   text-align: initial;
 }
-.widget.messageboard .messageboard-item ~ .messageboard-item{
+.widget.messageboard .messageboard-item:last-of-type{
   border-bottom: none;
 }
 .messageBoardWidget .messageboard-item:hover, .messageBoardWidget .messageboard-item:focus{
