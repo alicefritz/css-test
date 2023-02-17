@@ -227,7 +227,6 @@ span.bootstrap.z-datebox a.z-datebox-button:hover {
   border-radius: 4px;
   text-align: center;
   background-color: transparent;
-  border: var(--border);
 }
 
 .frontpage
@@ -249,6 +248,7 @@ span.bootstrap.z-datebox a.z-datebox-button:hover {
   border: var(--border);
   border-radius: 4px;
   background-color: white;
+  margin: 0;
 }
 
 .frontpage
