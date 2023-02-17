@@ -206,6 +206,7 @@ span.bootstrap.z-datebox a.z-datebox-button:hover {
 
 .z-window-noborder.z-window-noheader .z-window-content{
   background-color: transparent;
+  padding: 0;
 }
 
 .frontpage
@@ -245,6 +246,9 @@ span.bootstrap.z-datebox a.z-datebox-button:hover {
 
 .frontpage .content > .z-window > .z-window-content > .row{
   padding: 15px;
+  border: var(--border);
+  border-radius: 4px;
+  background-color: white;
 }
 
 .frontpage
