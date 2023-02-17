@@ -251,6 +251,11 @@ span.bootstrap.z-datebox a.z-datebox-button:hover {
   margin: 0;
 }
 
+.frontpage .content > .z-window > .z-window-content > .row > .col-md-12.z-div > .p.z-div{
+  display: flex;
+  
+}
+
 .frontpage
   .sidebar
   > .z-window.z-window-noborder.z-window-noheader.z-window-embedded {
