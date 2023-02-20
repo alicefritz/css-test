@@ -130,7 +130,7 @@ header .logo > div:first-of-type {
   display: none;
 }
 
-.frontpage header > .container{
+header > .container{
   display: flex;
 }
 
