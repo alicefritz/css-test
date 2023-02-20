@@ -414,3 +414,10 @@ header > div > div.col-xs-4.z-div > div:not(.pull-right) i{
   align-items: center;
   color: white !important;
 }
+
+a:has(.fa.fa-sign-in){
+  border: 1px solid var(--primary-color-lighter);
+  width: 110px;
+  height: 42px;
+  display: flex;
+}
