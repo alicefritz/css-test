@@ -406,5 +406,10 @@ header > div > div.col-xs-4.z-div {
   justify-content: flex-end;
 }
 header > div > div.col-xs-4.z-div > div:not(.pull-right){
-  margin-right: 15px
+  margin-right: 15px;
+}
+
+header > div > div.col-xs-4.z-div > div:not(.pull-right) i{
+  display: flex;
+  align-items: center;
 }
