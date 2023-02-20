@@ -412,4 +412,5 @@ header > div > div.col-xs-4.z-div > div:not(.pull-right){
 header > div > div.col-xs-4.z-div > div:not(.pull-right) i{
   display: flex;
   align-items: center;
+  color: white !important;
 }
