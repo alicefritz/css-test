@@ -110,6 +110,10 @@ header > div > div {
   justify-content: space-between;
 }
 
+header > div > div.col-xs-4.z-div {
+  justify-content: flex-end;
+}
+
 header .logo {
   display: flex !important;
 }
@@ -393,4 +397,10 @@ a:focus{
 .z-datebox > .z-datebox-input:has(+ .z-datebox-disabled){
   border: var(--border) !important;
   border-radius: 4px;
+}
+header > div > div.col-xs-4.z-div {
+  justify-content: flex-end;
+}
+header > div > div.col-xs-4.z-div > div:not(.pull-right){
+  margin-right: 15px
 }
