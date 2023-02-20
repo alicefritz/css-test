@@ -241,6 +241,10 @@ span.bootstrap.z-datebox a.z-datebox-button:hover {
   padding: 0;
 }
 
+.z-ckeditor{
+  border: var(--border);
+  border-radius: 4px;
+}
 .frontpage
   .content
   > .z-window.z-window-noborder.z-window-noheader.z-window-embedded:first-of-type {
