@@ -204,6 +204,9 @@ header > .container{
 .widget.messageboard > .widget-title {
   background-color: var(--alert-color);
 }
+.widget.messageboard .messageboard-item{
+  border-radius: 4px;
+}
 .widget.messageboard .messageboard-item:last-of-type{
   border-bottom: none;
   border-radius: 0 0 4px 4px
@@ -437,5 +440,5 @@ a:focus{
   border-radius: 4px;
   padding: 15px;
   background-color: white;
-  margin-top: 30px;
+  margin-top: -30px;
 }
