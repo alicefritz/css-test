@@ -130,6 +130,10 @@ header .logo > div:first-of-type {
   display: none;
 }
 
+.frontpage header > .container{
+  display: flex;
+}
+
 .frontpage header > .container.z-div > .col-xs-4.z-div {
   display: flex;
   justify-content: flex-end;
