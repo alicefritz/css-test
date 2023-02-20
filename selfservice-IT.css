@@ -421,3 +421,7 @@ a:has(.fa.fa-sign-in) i{
   align-items: center;
   color: white !important;
 }
+
+.headerComponent .loginOverlay{
+  background-color: var(--primary-color-lighter) !important;
+}
