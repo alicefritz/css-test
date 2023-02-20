@@ -386,9 +386,11 @@ a:focus{
 }
 *****/
 .z-datebox > .z-datebox-input:has(+ .z-datebox-button){
-  border: var(--border);
-  border-right: none;
+  border: var(--border) !important;
+  
+  border-right: none !important;
 }
-.z-datebox > .z-datebox-input:has(+ .z-datebox-button){
-  border: var(--border);
+.z-datebox > .z-datebox-input:has(+ .z-datebox-disabled){
+  border: var(--border) !important;
+  border-radius: 4px;
 }
