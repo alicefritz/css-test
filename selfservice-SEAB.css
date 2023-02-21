@@ -8354,7 +8354,7 @@ span.bootstrap.z-datebox a.z-datebox-button:hover {
 .frontpage
   .content
   > .z-window.z-window-noborder.z-window-noheader.z-window-embedded h2{
-    color: var(--accent-color-darker);
+    color: black;
 }
 
 .frontpage
