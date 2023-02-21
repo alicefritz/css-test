@@ -8142,7 +8142,7 @@ h6,
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 500;
   line-height: 1.1;
-  color: var(--primary-color-darker);
+  color: var(--primary-color-dark);
 }
 .btn:focus,
 .btn:hover,
@@ -8261,7 +8261,7 @@ header .headerSignedIn span{
   border-radius: 0;
 }
 .widget .widget-title {
-  color: var(--primary-color);
+  color: var(--primary-color-dark);
   background-color: transparent;
   border-bottom: none;
   padding: 15px;
@@ -8392,7 +8392,7 @@ span.bootstrap.z-datebox a.z-datebox-button:hover {
 }
 
 i {
-  color: var(--primary-color-darker) !important;
+  color: var(--primary-color-dark) !important;
 }
 
 .well {
