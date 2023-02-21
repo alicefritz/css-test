@@ -8337,6 +8337,10 @@ span.bootstrap.z-datebox a.z-datebox-button:hover {
   
 }
 
+h2.header{
+  color: black;
+}
+
 .frontpage .content > .z-window.z-window-noborder.z-window-noheader.z-window-embedded:first-of-type > .z-window-content{
   padding: 0;
 }
