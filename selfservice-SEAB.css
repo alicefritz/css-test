@@ -8394,6 +8394,7 @@ h2.header{
   > .z-window.z-window-noborder.z-window-noheader.z-window-embedded
   > div {
   background-color: transparent;
+  padding-top: 0;
 }
 
 i {
