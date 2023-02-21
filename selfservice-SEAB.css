@@ -8479,10 +8479,6 @@ a:focus{
   box-shadow: none !important;
 }
 
-.content.z-div > .z-div > .row.z-div .header{
-  margin-top: 30px;
-}
-
 .list_item_in_focus{
   background-color: var(--primary-color) !important;
 }
