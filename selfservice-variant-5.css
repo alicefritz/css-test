@@ -3,7 +3,7 @@
 
 /*****  CHANGES BY SKÖVDE KOMMUN IT/ALICE *****/
 :root {
-  --primary-color: #7DB945;
+  --primary-color: #6CA03B;
   --primary-color-light: #D3EAC2;
   --primary-color-lighter: #f2f8ec;
   --primary-color-dark: #3f5d23;
@@ -189,7 +189,7 @@ header > .container{
 }
 .widget .widget-title {
   color: white;
-  background-color: var(--primary-color-dark);
+  background-color: var(--primary-color);
   padding: 15px;
 }
 
@@ -206,6 +206,7 @@ header > .container{
 }
 .widget.messageboard > .widget-title {
   background-color: var(--alert-color);
+  color: white;
 }
 .widget.messageboard .messageboard-item{
   border-radius: 4px;
