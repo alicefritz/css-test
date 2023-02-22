@@ -3,7 +3,7 @@
 
 /*****  CHANGES BY SKÖVDE KOMMUN IT/ALICE *****/
 :root {
-  --primary-color: #6CA03B;
+  --primary-color: #7DB945;
   --primary-color-light: #D3EAC2;
   --primary-color-lighter: #f2f8ec;
   --primary-color-dark: #3f5d23;
@@ -37,9 +37,6 @@ textarea,
 
 body {
   background-color: white !important;
-  background-size: cover;
-  backdrop-filter: blur(10px);
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1920' height='1080' preserveAspectRatio='none' viewBox='0 0 1920 1080'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1021%26quot%3b)' fill='none'%3e%3cpath d='M1169.27 1250.39C1376.86 1145.16 1409.72 465.48 1666.58 463.4 1923.44 461.32 1988.32 946.39 2163.89 992.6' stroke='rgba(125%2c 185%2c 69%2c 1)' stroke-width='2'%3e%3c/path%3e%3cpath d='M517.89 1105.3C741.8 1007.11 751.89 327.2 1076.24 302.36 1400.6 277.52 1355.42 437.36 1634.6 437.36 1913.77 437.36 2049.34 303.31 2192.95 302.36' stroke='rgba(125%2c 185%2c 69%2c 1)' stroke-width='2'%3e%3c/path%3e%3cpath d='M399.68 1158.31C681.43 1120.74 781.01 508.85 1304.79 470.22 1828.57 431.59 1964.8 99.71 2209.9 92.22' stroke='rgba(125%2c 185%2c 69%2c 1)' stroke-width='2'%3e%3c/path%3e%3cpath d='M548.93 1114.51C768.65 977.11 661.62 207.1 1045.01 204.34 1428.4 201.58 1755.3 727.23 2037.18 744.34' stroke='rgba(125%2c 185%2c 69%2c 1)' stroke-width='2'%3e%3c/path%3e%3cpath d='M309.08 1080.17C507.07 1033.21 575.4 510.3 882.71 502.72 1190.03 495.14 1169.53 637.72 1456.35 637.72 1743.16 637.72 1882.66 503.63 2029.98 502.72' stroke='rgba(125%2c 185%2c 69%2c 1)' stroke-width='2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1021'%3e%3crect width='1920' height='1080' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
 }
 
 h1 {
