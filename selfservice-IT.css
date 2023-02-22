@@ -89,7 +89,7 @@ h6,
   background-color: var(--primary-color);
 }
 .badge {
-  background-color: var(--accent-color-dark);
+  background-color: var(--primary-color-dark);
 }
 .well {
   background-color: white;
@@ -386,7 +386,7 @@ button > i,
 }
 
 a:focus{
-  outline-color: var(--accent-color-dark) !important;
+  outline-color: var(--primary-color-dark) !important;
 }
 
 .z-a:hover{
