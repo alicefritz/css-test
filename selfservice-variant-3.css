@@ -204,12 +204,26 @@ header > .container{
 .widget.messageboard > .widget-title {
   background-color: var(--alert-color);
 }
+.widget.messageboard .messageboard-item{
+  border-radius: 4px;
+}
+.widget.messageboard .messageboard-item:only-of-type{
+  border-radius: 4px;
+}
 .widget.messageboard .messageboard-item:last-of-type{
   border-bottom: none;
   border-radius: 0 0 4px 4px
 }
 .widget.messageboard:not(:has(div):has(.messageboard-item)){
   display: none;
+}
+.col-xs-12.col-sm-7.col-md-8.col-lg-8.z-div > span > p{
+  border: var(--border);
+  border-radius: 4px;
+  padding: 15px;
+  background-color: white;
+  margin-top: -30px;
+  width: fit-content;
 }
 span.bootstrap.z-datebox a.z-datebox-button {
   background: var(--primary-color);
@@ -241,6 +255,10 @@ span.bootstrap.z-datebox a.z-datebox-button:hover {
   padding: 0;
 }
 
+.z-ckeditor{
+  border: var(--border);
+  border-radius: 4px;
+}
 .frontpage
   .content
   > .z-window.z-window-noborder.z-window-noheader.z-window-embedded:first-of-type {
@@ -427,3 +445,4 @@ a:focus{
   flex-wrap: wrap;
 }
 *****/
+
