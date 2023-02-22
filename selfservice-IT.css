@@ -86,6 +86,10 @@ h6,
   border-color: var(--primary-color-darker);
 }
 
+.btn-primary[aria-label="Sök"]{
+  font-size: 14px;
+}
+
 .btn-primary, .btn-success{
   font-size: 12pt;
 }
