@@ -42,6 +42,9 @@ body {
 h1 {
   color: white !important;
 }
+a{
+  color: #2E6CA3;
+}
 a:hover,
 a:focus {
   color: var(--primary-color-dark);
