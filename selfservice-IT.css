@@ -91,6 +91,9 @@ h6,
   color: #ffffff;
   background-color: var(--primary-color-dark);
 }
+ul.nav-pills.with-badge LI A{
+  font-size: 12pt;
+}
 .badge {
   background-color: var(--primary-color-dark);
 }
