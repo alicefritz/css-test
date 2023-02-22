@@ -85,6 +85,10 @@ h6,
   background-color: var(--primary-color-dark);
   border-color: var(--primary-color-darker);
 }
+
+.btn-primary, .btn-success{
+  font-size: 12pt;
+}
 .nav-pills > li.active > a,
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus {
@@ -243,6 +247,7 @@ span.bootstrap.z-datebox a.z-datebox-button:hover {
 #searchButton {
   background-color: var(--primary-color);
   color: white;
+  font-size: 14px;
 }
 
 #faqSearchButton:hover,
