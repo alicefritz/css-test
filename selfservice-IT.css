@@ -89,7 +89,7 @@ h6,
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus {
   color: #ffffff;
-  background-color: var(--primary-color);
+  background-color: var(--primary-color-dark);
 }
 .badge {
   background-color: var(--primary-color-dark);
