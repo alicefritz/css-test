@@ -8099,7 +8099,8 @@ fieldset[disabled] .datepicker table tr td span.active.disabled:hover.active {
   --success-color: #00661F;
   --success-color-dark: #0B501E;
   --success-color-darker: #082B0E;
-  --box-shadow: 0 1px 3px 0 #cccccc;
+  --box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.3);
+  --box-shadow-hover: 2px 2px 15px 10px rgba(0, 0, 0, 0.1);
   --font-family: "Source Sans Pro", sans-serif;
   --font-family: 'PT Sans', sans-serif;
   --border: 1px solid var(--primary-color-dark);
@@ -8195,7 +8196,8 @@ ul.nav-pills.with-badge LI A{
   border: var(--border);
 }
 .well:hover {
-  outline: 2px solid var(--primary-color-dark);
+  /*outline: 2px solid var(--primary-color-dark);*/
+  box-shadow: var(--box-shadow-hover);
 }
 header {
   background: rgb(79,56,116);
