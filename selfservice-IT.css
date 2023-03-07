@@ -93,9 +93,9 @@ h6,
   font-size: 14px;
 }
 
-.btn-primary, .btn-success{
+/*.btn-primary, .btn-success{
   font-size: 12pt;
-}
+}*/
 .nav-pills > li.active > a,
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus {
