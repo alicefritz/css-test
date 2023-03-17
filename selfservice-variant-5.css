@@ -385,8 +385,12 @@ button > i,
   background-color: var(--accent-color);
 }
 
-.nav > li > a:hover, .nav > li > a:focus{
+.nav > li > a:hover{
   background-color: var(--primary-color-light);
+}
+
+.nav > li > a:focus{
+  background-color: var(--accent-color);
 }
 
 #faqList ~ .z-div {
