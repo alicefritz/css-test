@@ -8208,6 +8208,15 @@ header .logo > div:first-of-type {
   display: none;
 }
 
+header .headerSignedIn{
+  border-radius: 10px !important;
+  background-color: none;
+}
+
+header .headerSignedIn span{
+  color: white !important;
+}
+
 header > div > div.col-xs-4.z-div {
   justify-content: flex-end;
 }
