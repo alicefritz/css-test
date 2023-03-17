@@ -443,6 +443,10 @@ a:focus{
   border-radius: 4px;
 }
 
+.frontpage .sidebar > .z-window.z-window-noborder.z-window-noheader.z-window-embedded:last-of-type{
+  display: none;
+}
+
 /***** UNCOMMENT THIS FOR "BIG-BUTTON" LAYOUT FOR "MINA ÄRENDEN"
 .frontpage .row.z-div > .col-sm-6.z-div:first-of-type > div > a > div{
   display: flex;
