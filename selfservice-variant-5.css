@@ -381,6 +381,14 @@ button > i,
   color: white !important;
 }
 
+.nav > li > a.active{
+  background-color: var(--accent-color);
+}
+
+.nav > li > a:hover, .nav > li > a:focus{
+  background-color: var(--primary-color-light);
+}
+
 #faqList ~ .z-div {
   background-color: white;
   border-radius: 4px;
