@@ -8186,6 +8186,10 @@ header {
 header::after{
   height: 0;
 }
+
+header *{
+  color: white;
+}
 header > div > div {
   display: flex;
   align-items: center;
@@ -8271,6 +8275,10 @@ header > .container{
   background-color: var(--primary-color);
   padding: 15px;
   border: none;
+}
+
+.widget .widget-title::before{
+  height: 0;
 }
 
 .widget .widget-title span{
