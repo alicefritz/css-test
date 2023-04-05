@@ -8554,7 +8554,7 @@ a:focus{
 }
 
 .z-div > .row.z-div > .col-xs-12.col-sm-6.z-div:first-of-type > select{
-  background-color: lightgray;
+  background-color: #eeeeee;
   pointer-events: none;
 }
 
