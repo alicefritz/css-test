@@ -8558,6 +8558,10 @@ a:focus{
   pointer-events: none;
 }
 
+.z-window-close i{
+  color: black !important;
+}
+
 
 /***** UNCOMMENT THIS FOR "BIG-BUTTON" LAYOUT FOR "MINA ÄRENDEN"
 .frontpage .row.z-div > .col-sm-6.z-div:first-of-type > div > a > div{
