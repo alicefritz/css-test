@@ -8188,7 +8188,7 @@ ul.nav-pills.with-badge LI A{
   background-color: var(--primary-color-dark);
 }
 .well {
-  background-color: white;
+  background-color: #e2e2e2;
   text-align: center;
   box-shadow: var(--box-shadow);
   border: var(--border);
