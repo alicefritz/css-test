@@ -8277,7 +8277,7 @@ header > .container{
   background-color: white;
 }
 .widget {
-  border: var(--border);
+  border: none;
   box-shadow: var(--box-shadow);
   background-color: #e2e2e2;
 }
