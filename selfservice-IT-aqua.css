@@ -8118,7 +8118,7 @@ textarea,
 }
 
 body {
-  background-color: var(--primary-color-lighter) !important;
+  background-color: #ffffff !important;
 }
 
 h1 {
@@ -8197,7 +8197,7 @@ ul.nav-pills.with-badge LI A{
   outline: 2px solid var(--primary-color-dark);
 }
 header {
-  background-color: var(--primary-color-dark);
+  background-color: var(--primary-color);
   display: flex;
 }
 header > div > div {
@@ -8282,7 +8282,7 @@ header > .container{
 }
 .widget .widget-title {
   color: white;
-  background-color: var(--primary-color-dark);
+  background-color: var(--primary-color);
   padding: 15px;
   border: none;
 }
