@@ -8396,7 +8396,7 @@ span.bootstrap.z-datebox a.z-datebox-button:hover {
   padding: 15px;
   border: var(--border);
   border-radius: 4px;
-  background-color: white;
+  background-color: #e2e2e2;
   margin: 0;
 }
 
