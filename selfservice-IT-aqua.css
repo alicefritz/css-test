@@ -8279,6 +8279,7 @@ header > .container{
 .widget {
   border: var(--border);
   box-shadow: var(--box-shadow);
+  background-color: #e2e2e2;
 }
 .widget .widget-title {
   color: white;
