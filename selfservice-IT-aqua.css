@@ -8102,6 +8102,7 @@ fieldset[disabled] .datepicker table tr td span.active.disabled:hover.active {
   --font-family: 'PT Sans', sans-serif;
   --box-shadow: none;
   --border: 1px solid var(--primary-color-dark);
+  --background-color: white;
 }
 
 html,
@@ -8118,7 +8119,7 @@ textarea,
 }
 
 body {
-  background-color: #ffffff !important;
+  background-color: var(--background-color) !important;
 }
 
 h1 {
@@ -8565,4 +8566,8 @@ a:focus{
   position: absolute;
   top: 0;
   left: 0;
+}
+
+.dark-mode{
+  --background-color: black;
 }
