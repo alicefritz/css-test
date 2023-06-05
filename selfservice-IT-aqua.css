@@ -8562,4 +8562,7 @@ a:focus{
   width: 100px;
   height: 100px;
   background-color: red;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
