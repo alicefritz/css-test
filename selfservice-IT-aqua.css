@@ -8560,7 +8560,7 @@ a:focus{
 *****/
 
 /* SOME MOBILE STUFF */
-.mobile .mobile-navbar i{
+.mobile-navbar i{
   color: white !important; 
 }
 
@@ -8569,7 +8569,7 @@ a:focus{
   border: none;
 }
 
-.mobile-navbar .item-content span{
+.mobile .mobile-navbar .item-content span{
   color: white;
 }
 
