@@ -8559,6 +8559,16 @@ a:focus{
 }
 *****/
 
+/* SOME MOBILE STUFF */
+.mobile .mobile-navbar i{
+  color: white !important; 
+}
+
+.mobile-navbar{
+  background-color: var(--primary-color);
+  border: none;
+}
+
 /*experimental*/
 .mode-switcher{
   width: 100px;
@@ -8573,4 +8583,5 @@ a:focus{
   --background-color: #2d3142;
   --primary-color: #4f5d75;
   --widget-color: #e6e3e0;
+  --general-text-color: black;
 }
