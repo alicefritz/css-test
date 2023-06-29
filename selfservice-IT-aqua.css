@@ -8569,6 +8569,10 @@ a:focus{
   border: none;
 }
 
+.mobile .mobile-navbar .item-content span{
+  color: white;
+}
+
 /*experimental*/
 .mode-switcher{
   width: 100px;
