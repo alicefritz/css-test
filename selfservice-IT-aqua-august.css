@@ -8652,3 +8652,6 @@ a:focus{
     width: 100%;
   }
 }
+.e-html-readonly{
+	background-color: transparent !important;
+}
