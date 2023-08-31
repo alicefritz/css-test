@@ -8655,3 +8655,6 @@ a:focus{
 .e-html-readonly{
 	background-color: transparent !important;
 }
+.form-control[disabled] > option{
+	color: black !important;
+}
