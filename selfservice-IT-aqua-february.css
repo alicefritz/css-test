@@ -8678,3 +8678,7 @@ a:focus{
 .form-control[disabled] > option{
 	color: black !important;
 }
+
+.form-group.z-div > .position-relative.z-window.z-window-noborder.z-window-noheader.z-window-embedded, .form-group.z-div > .position-relative.z-window.z-window-noborder.z-window-noheader.z-window-embedded > .z-window-content{
+  overflow:initial !important;
+}
