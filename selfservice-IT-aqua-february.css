@@ -8648,6 +8648,7 @@ a:focus{
 
 .form-group > div{
 	background:transparent !important;
+  padding: 0;
 }
 
 /*experimental*/
