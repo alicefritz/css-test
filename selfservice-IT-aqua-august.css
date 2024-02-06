@@ -8630,6 +8630,10 @@ a:focus{
   color: white;
 }
 
+.form-group > div{
+	background:transparent !important;
+}
+
 /*experimental*/
 .mode-switcher{
   width: 100px;
