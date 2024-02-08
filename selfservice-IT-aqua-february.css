@@ -8682,4 +8682,5 @@ a:focus{
 
 .form-group.z-div > .position-relative.z-window.z-window-noborder.z-window-noheader.z-window-embedded, .form-group.z-div > .position-relative.z-window.z-window-noborder.z-window-noheader.z-window-embedded > .z-window-content{
   overflow:initial !important;
+  padding: 0;
 }
