@@ -8687,8 +8687,8 @@ a:focus{
   padding: 0;
 }
 
-.position-relative.z-div[testid="ad-ss-component-Valdabehörigheter"]{
+.position-relative.z-div[testid="ad-ss-component-Valdabehörigheter"]:not(.e-html-readonly){
     border: var(--border);
-    padding: 5px 4px 0px 4px !important;
+    padding: 5px 10px;
     border-radius: 4px;
 }
