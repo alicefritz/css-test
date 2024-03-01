@@ -8677,6 +8677,7 @@ a:focus{
 }
 .e-html-readonly{
 	background-color: transparent !important;
+	height: auto !important;
 }
 .form-control[disabled] > option{
 	color: black !important;
