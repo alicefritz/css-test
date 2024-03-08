@@ -8699,5 +8699,5 @@ label SPAN.z-label:first-of-type{
 }
 
 .faq-search-label > span{
-    font-weight: bold;
+    font-weight: bold !important;
 }
