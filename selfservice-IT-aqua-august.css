@@ -8680,3 +8680,7 @@ label SPAN.z-label:first-of-type{
 .faq-search-label > span{
     font-weight: bold !important;
 }
+
+select.form-control:hover{
+    font-size: 14px !important;
+}
