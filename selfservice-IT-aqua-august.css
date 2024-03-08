@@ -8672,3 +8672,11 @@ a:focus{
     padding: 5px 10px;
     border-radius: 4px;
 }
+
+label SPAN.z-label:first-of-type{
+    font-weight: normal;
+}
+
+.faq-search-label > span{
+    font-weight: bold !important;
+}
