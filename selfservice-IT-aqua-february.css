@@ -8702,6 +8702,3 @@ label SPAN.z-label:first-of-type{
     font-weight: bold !important;
 }
 
-select.form-control:hover{
-    font-size: 14px !important;
-}
